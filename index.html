@@ -1,0 +1,205 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeExplain - Code Explanation Tool</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <div class="logo">Code<span>Explain</span></div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#features">Features</a>
+            <a href="#about">About</a>
+        </nav>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+            <h1>Understand Code <span>Instantly</span></h1>
+
+            <p>
+                Paste your code and let CodeExplain break it down
+                into simple and easy-to-understand explanations.
+            </p>
+
+            <a href="#code-section" class="start-btn">
+                Start Explaining
+            </a>
+        </div>
+
+    </section>
+
+
+    <!-- Code Explanation Section -->
+    <section class="code-section" id="code-section">
+
+        <div class="section-heading">
+            <h2>Code Explanation</h2>
+            <p>Paste your code below and select the programming language.</p>
+        </div>
+
+
+        <div class="workspace">
+
+            <!-- Input Box -->
+            <div class="code-box">
+
+                <div class="box-header">
+                    <h3>Your Code</h3>
+
+                    <select id="language">
+                        <option value="cpp">C++</option>
+                        <option value="java">Java</option>
+                        <option value="python">Python</option>
+                        <option value="javascript">JavaScript</option>
+                        <option value="html">HTML</option>
+                    </select>
+                </div>
+
+                <textarea id="codeInput"
+                    placeholder="Paste your code here...">
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a = 10;
+    int b = 20;
+
+    int sum = a + b;
+
+    cout << sum;
+
+    return 0;
+}
+                </textarea>
+
+                <div class="button-container">
+                    <button class="clear-btn">Clear</button>
+                    <button class="explain-btn">
+                        Explain Code
+                    </button>
+                </div>
+
+            </div>
+
+
+            <!-- Output Box -->
+            <div class="output-box">
+
+                <div class="box-header">
+                    <h3>Explanation</h3>
+                </div>
+
+                <div class="output-content">
+
+                    <div class="placeholder">
+                        <div class="icon">💡</div>
+
+                        <h3>Your explanation will appear here</h3>
+
+                        <p>
+                            Enter your code and click
+                            <b>Explain Code</b> to get a
+                            simple explanation.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Features -->
+    <section class="features" id="features">
+
+        <div class="section-heading">
+            <h2>Features</h2>
+            <p>Everything you need to understand your code.</p>
+        </div>
+
+
+        <div class="feature-container">
+
+            <div class="feature-card">
+                <div class="feature-icon">📖</div>
+                <h3>Simple Explanation</h3>
+                <p>
+                    Understand complicated code using
+                    simple and beginner-friendly language.
+                </p>
+            </div>
+
+
+            <div class="feature-card">
+                <div class="feature-icon">🔍</div>
+                <h3>Line-by-Line</h3>
+                <p>
+                    Get an explanation of what each
+                    important line of code does.
+                </p>
+            </div>
+
+
+            <div class="feature-card">
+                <div class="feature-icon">⚡</div>
+                <h3>Complexity Analysis</h3>
+                <p>
+                    Understand the time and space
+                    complexity of your program.
+                </p>
+            </div>
+
+
+            <div class="feature-card">
+                <div class="feature-icon">💻</div>
+                <h3>Multiple Languages</h3>
+                <p>
+                    Support for C++, Java, Python,
+                    JavaScript and more.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- About -->
+    <section class="about" id="about">
+
+        <h2>About CodeExplain</h2>
+
+        <p>
+            CodeExplain is an AI-powered code explanation tool
+            designed to help students and developers understand
+            programming code quickly and easily.
+        </p>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 CodeExplain. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
+```
